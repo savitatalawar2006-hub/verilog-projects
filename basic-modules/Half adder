@@ -1,0 +1,6 @@
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign #2 sum=a^b;
+assign #2 carry=a&b;
+endmodule 
